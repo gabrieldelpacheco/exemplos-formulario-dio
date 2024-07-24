@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Você selecinou: Pizza de Calabresa</h1>
+    <form method="get">
+        <p>Quais opcionais você deseja?</p>
+        <!-- name="opicional[]" para o banco de dados identificar como uma lista. -->
+        <input type="checkbox" name="opicional[]" value="queijo"> + queijo
+        <input type="checkbox" name="opicional[]" value="calabresa"> + calabresa
+        <input type="checkbox" name="opicional[]" value="cebola"> + cebola
+        <input type="checkbox" name="opicional[]" value="aceitona"> + aceitona
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim"> Sim
+        <input type="radio" name="borda" value="nao"> Não
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="suco"> Suco
+        <input type="radio" name="bebida" value="refrigerante"> Refrigerante
+        <input type="radio" name="bebida" value="agua"> Água
+        <input type="radio" name="bebida" value="nenhum"> Nenhum
+        <button type="submit">Enviar pedido</button>
+    </form>
+</body>
+
+</html>
