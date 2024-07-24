@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Option</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="">Nome: </label><input type="text" placeholder="completo completo" name="name"><br>
+        <label for="">idade: </label><input type="text" name="age"><br>
+        <label for="">Sexo: </label>
+        <select name="sex" id="">
+            <option value="">Selecione</option>
+            <option selected value="masculino">Masculino</option><!-- selected atribudo que já vem preselecionado -->
+            <option value="faminino">Feminino</option>
+            <option value="outros">Outros</option>
+        </select><br>
+        <label for="">Cargo: </label>
+        <select name="role" id=""><!-- mutiple, permite selecionar mais de uma opção. -->
+            <option value="chefe">chefe</option>
+            <option value="administrador">administrador</option>
+            <option value="vendedor">vendedor</option>
+            <option value="investidor">investidor</option>
+        </select><br>
+        <label for="">Assunto:</label><input type="text" name="subject"><br>
+        <label for="">Mensagem: </label>
+        <textarea name="" id="" rows="10" cols="40"></textarea><br><!-- rows, linhas cols, colunas -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
